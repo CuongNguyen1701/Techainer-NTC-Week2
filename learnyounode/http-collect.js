@@ -1,5 +1,4 @@
 const http = require('http');
-const util = require('util');
 let arg = [];
 for (let i = 0; i < (process.argv.length - 2); i++) {
     arg[i] = process.argv[i+2];
